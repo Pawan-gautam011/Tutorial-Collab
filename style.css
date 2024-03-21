@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(50, 192, 211);
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+.Form{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 250px auto;
+width: 500px;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Container{
+    padding: 30px 50px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    cursor: pointer;
+    background: rgba(70, 145, 175, 0.733);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin: 25px 30px;
+}
